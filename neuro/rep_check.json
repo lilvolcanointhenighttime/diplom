@@ -1,0 +1,2360 @@
+{
+  '7839071862': {
+    'Timestamp': '2025-11-29T15:20:33.4051953',
+    'Factors': [
+      {
+        'Type': 'Finance',
+        'Score': 'Attention',
+        'Name': 'Проанализирована бухгалтерская отчетность за 2024 г.',
+        'Description': 'По данным ФНС, организация несет убытки.',
+        'Number': 'В5'
+      },
+      {
+        'Type': 'Lifetime',
+        'Score': 'Positive',
+        'Name': 'Организация существует 9 лет и 2 месяца.',
+        'Description': None,
+        'Number': 'П1'
+      },
+      {
+        'Type': 'Activity',
+        'Score': 'Positive',
+        'Name': 'Имеются данные об активности организации за последние 12 месяцев.',
+        'Description': None,
+        'Number': 'П2'
+      },
+      {
+        'Type': 'Unreported',
+        'Score': 'Positive',
+        'Name': 'Организация отсутствует в списке не предоставивших налоговую отчетность в ФНС.',
+        'Description': None,
+        'Number': 'П3'
+      },
+      {
+        'Type': 'Debtor',
+        'Score': 'Positive',
+        'Name': 'Отсутствует просроченная задолженность по налогам перед ФНС.',
+        'Description': None,
+        'Number': 'П4'
+      },
+      {
+        'IndividualFactors': [
+          {
+            'Item1': '6296e8e4-4162-4396-a02d-3422a529701d',
+            'Item2': {
+              'Type': 'MassAddress',
+              'Score': 'Positive',
+              'Name': 'Организация не найдена в реестре «массовых юридических адресов» по данным ФНС.',
+              'Description': None,
+              'Number': 'П5'
+            }
+          }
+        ],
+        'Type': 'MassAddress',
+        'Score': 'Positive',
+        'Name': 'Организация не найдена в реестре «массовых юридических адресов» по данным ФНС.',
+        'Description': None,
+        'Number': 'П5'
+      },
+      {
+        'IndividualFactors': [
+          {
+            'Item1': '6296e8e4-4162-4396-a02d-3422a529701d',
+            'Item2': {
+              'Type': 'AddressUnreliability',
+              'Score': 'Positive',
+              'Name': 'Не найдены недостоверные сведения в регистрационных данных о  юридическом адресе.',
+              'Description': None,
+              'Number': 'П6'
+            }
+          },
+          {
+            'Item1': 'f58f521e-dea6-4185-bd91-dff746ff9600',
+            'Item2': {
+              'Type': 'AddressUnreliability',
+              'Score': 'Attention',
+              'Name': 'Найдены недостоверные сведения в регистрационных данных о юридическом адресе.',
+              'Description': 'В результате обоснованных сомнений ФНС установила отсутствие компании по юридическому адресу. Это может привести к скорой блокировке расчетного счета.',
+              'Number': 'В37'
+            }
+          }
+        ],
+        'Type': 'AddressUnreliability',
+        'Score': 'Positive',
+        'Name': 'Не найдены недостоверные сведения в регистрационных данных о юридическом адресе.',
+        'Description': None,
+        'Number': 'П6'
+      },
+      {
+        'IndividualFactors': [
+          {
+            'Item1': 'a1caf085-ddeb-4708-b642-1392dc043ff5',
+            'Item2': {
+              'Type': 'ManagerDisqualification',
+              'Score': 'Positive',
+              'Name': 'Руководитель организации не найден в реестре «дисквалифицированные лица» по данным ФНС.',
+              'Description': None,
+              'Number': 'П7'
+            }
+          }
+        ],
+        'Type': 'ManagerDisqualification',
+        'Score': 'Positive',
+        'Name': 'Руководитель организации не найден в реестре «дисквалифицированные лица» по данным ФНС.',
+        'Description': None,
+        'Number': 'П7'
+      },
+      {
+        'IndividualFactors': [
+          {
+            'Item1': 'a1caf085-ddeb-4708-b642-1392dc043ff5',
+            'Item2': {
+              'Type': 'ManagerUnreliability',
+              'Score': 'Positive',
+              'Name': 'Не найдены недостоверные сведения в регистрационных данных о руководителе.',
+              'Description': None,
+              'Number': 'П8'
+            }
+          }
+        ],
+        'Type': 'ManagerUnreliability',
+        'Score': 'Positive',
+        'Name': 'Не найдены недостоверные сведения в регистрационных данных о руководителе.',
+        'Description': None,
+        'Number': 'П8'
+      },
+      {
+        'IndividualFactors': [
+          {
+            'Item1': 'c244c544-ebb1-49f9-a2e5-1979f152e30f',
+            'Item2': {
+              'Type': 'ShareholderUnreliability',
+              'Score': 'Positive',
+              'Name': 'Не найдены недостоверные сведения в регистрационных данных об учредителе.',
+              'Description': None,
+              'Number': 'П9'
+            }
+          },
+          {
+            'Item1': '756fee99-2ebf-4ebb-82fd-81efb2c2a0b2',
+            'Item2': {
+              'Type': 'ShareholderUnreliability',
+              'Score': 'Positive',
+              'Name': 'Не найдены недостоверные сведения в регистрационных данных об учредителе.',
+              'Description': None,
+              'Number': 'П9'
+            }
+          },
+          {
+            'Item1': '72990af2-682a-47b5-bfff-bde8f9f166fb',
+            'Item2': {
+              'Type': 'ShareholderUnreliability',
+              'Score': 'Positive',
+              'Name': 'Не найдены недостоверные сведения в регистрационных данных об учредителе.',
+              'Description': None,
+              'Number': 'П9'
+            }
+          },
+          {
+            'Item1': 'a61cd3e5-4e88-42e8-b32b-ca165a6d5a57',
+            'Item2': {
+              'Type': 'ShareholderUnreliability',
+              'Score': 'Positive',
+              'Name': 'Не найдены недостоверные сведения в регистрационных данных об учредителе.',
+              'Description': None,
+              'Number': 'П9'
+            }
+          }
+        ],
+        'Type': 'ShareholderUnreliability',
+        'Score': 'Positive',
+        'Name': 'Не найдены недостоверные  сведения в регистрационных данных об учредителе.',
+        'Description': None,
+        'Number': 'П9'
+      },
+      {
+        'Type': 'BailiffCurrent',
+        'Score': 'Positive',
+        'Name': 'Не найдены текущие исполнительные производства за последние 12 месяцев.',
+        'Description': None,
+        'Number': 'П10'
+      },
+      {
+        'Type': 'Arbitration',
+        'Score': 'Positive',
+        'Name': 'Организация не участвовала в судебных разбирательствах за последние 12 месяцев.',
+        'Description': None,
+        'Number': 'П11'
+      },
+      {
+        'Type': 'Bankruptcy',
+        'Score': 'Positive',
+        'Name': 'Не найдены сообщения о банкротстве компании.',
+        'Description': None,
+        'Number': 'П15'
+      }
+    ],
+    'RiskIndexes': [
+      {
+        'Type': 'DueDiligence',
+        'Percentage': 0,
+        'FactorNumbers': [
+          
+        ]
+      },
+      {
+        'Type': 'FinancialRisk',
+        'Percentage': 30,
+        'FactorNumbers': [
+          'В5'
+        ]
+      }
+    ],
+    'TotalScore': 'Attention'
+  },
+  '7722000820': {
+    'Timestamp': '2025-11-29T15:20:33.8790951',
+    'Factors': [
+      {
+        'Type': 'ArbitrationSumPlaintiff',
+        'Score': 'Attention',
+        'Name': 'Незначительная сумма арбитражных дел в качестве истца.',
+        'Description': 'Сумма арбитражных дел за последние 12 мес. в качестве истца составляет болеe 1 млн. ₽.',
+        'Number': 'В18'
+      },
+      {
+        'Type': 'ArbitrationSumDefendant',
+        'Score': 'Attention',
+        'Name': 'Незначительная сумма арбитражных дел в качестве ответчика.',
+        'Description': 'Сумма арбитражных дел за последние  12 мес. в качестве ответчика составляет более 1 млн. ₽.',
+        'Number': 'В19'
+      },
+      {
+        'Type': 'Finance',
+        'Score': 'Attention',
+        'Name': 'Бухгалтерская отчетность за последние 3 года отсутствует.',
+        'Description': 'Организация не сдает бухгалтерскую отчетность.  Иногда это делается умышленно, чтобы не афишировать бухгалтерские показатели, т.к. наказание незначительно или вовсе отсутствует.',
+        'Number': 'В47'
+      },
+      {
+        'Type': 'Lifetime',
+        'Score': 'Positive',
+        'Name': 'Организация существует 27 лет и 5 месяцев.',
+        'Description': None,
+        'Number': 'П1'
+      },
+      {
+        'Type': 'Activity',
+        'Score': 'Positive',
+        'Name': 'Имеются данные об активности организации за последние 12 месяцев.',
+        'Description': None,
+        'Number': 'П2'
+      },
+      {
+        'Type': 'Unreported',
+        'Score': 'Positive',
+        'Name': 'Организация отсутствует в списке не предоставивших налоговую отчетность в ФНС.',
+        'Description': None,
+        'Number': 'П3'
+      },
+      {
+        'Type': 'Debtor',
+        'Score': 'Positive',
+        'Name': 'Отсутствует просроченная задолженность по налогам перед ФНС.',
+        'Description': None,
+        'Number': 'П4'
+      },
+      {
+        'IndividualFactors': [
+          {
+            'Item1': '4257506d-9796-46a7-a201-459393b20490',
+            'Item2': {
+              'Type': 'MassAddress',
+              'Score': 'Positive',
+              'Name': 'Организация не найдена в реестре «массовых юридических адресов» по данным ФНС.',
+              'Description': None,
+              'Number': 'П5'
+            }
+          }
+        ],
+        'Type': 'MassAddress',
+        'Score': 'Positive',
+        'Name': 'Организация не найдена в реестре «массовых юридических адресов» по данным ФНС.',
+        'Description': None,
+        'Number': 'П5'
+      },
+      {
+        'IndividualFactors': [
+          {
+            'Item1': '4257506d-9796-46a7-a201-459393b20490',
+            'Item2': {
+              'Type': 'AddressUnreliability',
+              'Score': 'Positive',
+              'Name': 'Не найдены недостоверные сведения в регистрационных данных о юридическом адресе.',
+              'Description': None,
+              'Number': 'П6'
+            }
+          }
+        ],
+        'Type': 'AddressUnreliability',
+        'Score': 'Positive',
+        'Name': 'Не найдены недостоверные сведения в регистрационных данных о юридическом адресе.',
+        'Description': None,
+        'Number': 'П6'
+      },
+      {
+        'IndividualFactors': [
+          {
+            'Item1': '52239bac-cd02-468e-a3af-a558a2bee1e0',
+            'Item2': {
+              'Type': 'ManagerDisqualification',
+              'Score': 'Positive',
+              'Name': 'Руководитель организации не найден в реестре «дисквалифицированные лица» по данным ФНС.',
+              'Description': None,
+              'Number': 'П7'
+            }
+          }
+        ],
+        'Type': 'ManagerDisqualification',
+        'Score': 'Positive',
+        'Name': 'Руководитель организации не найден в реестре «дисквалифицированные лица» по данным ФНС.',
+        'Description': None,
+        'Number': 'П7'
+      },
+      {
+        'IndividualFactors': [
+          {
+            'Item1': '52239bac-cd02-468e-a3af-a558a2bee1e0',
+            'Item2': {
+              'Type': 'ManagerUnreliability',
+              'Score': 'Positive',
+              'Name': 'Не найдены недостоверные сведения в регистрационных данных о руководителе.',
+              'Description': None,
+              'Number': 'П8'
+            }
+          },
+          {
+            'Item1': 'ae7499d2-cc3d-46e5-a606-f648c0bea636',
+            'Item2': {
+              'Type': 'ManagerUnreliability',
+              'Score': 'Positive',
+              'Name': 'Не  найдены недостоверные сведения в регистрационных данных о руководителе.',
+              'Description': None,
+              'Number': 'П8'
+            }
+          },
+          {
+            'Item1': '43ad16cf-05fb-447a-a1fd-0c6d18a453af',
+            'Item2': {
+              'Type': 'ManagerUnreliability',
+              'Score': 'Positive',
+              'Name': 'Не найдены недостоверные сведения в регистрационных данных о руководителе.',
+              'Description': None,
+              'Number': 'П8'
+            }
+          }
+        ],
+        'Type': 'ManagerUnreliability',
+        'Score': 'Positive',
+        'Name': 'Не найдены недостоверные сведения в регистрационных данных о руководителе.',
+        'Description': None,
+        'Number': 'П8'
+      },
+      {
+        'IndividualFactors': [
+          {
+            'Item1': '9779e9fc-9ff1-4645-8c50-4be002607184',
+            'Item2': {
+              'Type': 'ShareholderUnreliability',
+              'Score': 'Positive',
+              'Name': 'Не найдены недостоверные сведения в регистрационных данных об учредителе.',
+              'Description': None,
+              'Number': 'П9'
+            }
+          },
+          {
+            'Item1': '0bcef064-7a7d-4f75-a3e9-49bfde42ea38',
+            'Item2': {
+              'Type': 'ShareholderUnreliability',
+              'Score': 'Positive',
+              'Name': 'Не найдены недостоверные сведения в регистрационных данных об учредителе.',
+              'Description': None,
+              'Number': 'П9'
+            }
+          }
+        ],
+        'Type': 'ShareholderUnreliability',
+        'Score': 'Positive',
+        'Name': 'Не найдены недостоверные сведения в регистрационных данных об учредителе.',
+        'Description': None,
+        'Number': 'П9'
+      },
+      {
+        'Type': 'BailiffCurrent',
+        'Score': 'Positive',
+        'Name': 'Не найдены текущие исполнительные производства за последние 12 месяцев.',
+        'Description': None,
+        'Number': 'П10'
+      },
+      {
+        'Type': 'Bankruptcy',
+        'Score': 'Positive',
+        'Name': 'Не найдены сообщения о банкротстве компании.',
+        'Description': None,
+        'Number': 'П15'
+      },
+      {
+        'Type': 'GovernmentOwned',
+        'Score': 'Positive',
+        'Name': 'Организация с государственным участием',
+        'Description': None,
+        'Number': 'П19'
+      }
+    ],
+    'RiskIndexes': [
+      {
+        'Type': 'DueDiligence',
+        'Percentage': 0,
+        'FactorNumbers': [
+          
+        ]
+      },
+      {
+        'Type': 'FinancialRisk',
+        'Percentage': 0,
+        'FactorNumbers': [
+          'В18',
+          'В19'
+        ]
+      }
+    ],
+    'TotalScore': 'Attention'
+  },
+  '7707083893': {
+    'Timestamp': '2025-11-29T15:20:34.1308705',
+    'Factors': [
+      {
+        'Type': 'BailiffCurrent',
+        'Score': 'Attention',
+        'Name': 'Найдены текущие исполнительные производства.',
+        'Description': 'Найденные исполнительные производства могут свидетельствовать о финансовых трудностях в компании.',
+        'Number': 'В11'
+      },
+      {
+        'Type': 'ArbitrationSumPlaintiff',
+        'Score': 'Attention',
+        'Name': 'Значительная сумма арбитражных дел в качестве истца.',
+        'Description': 'Сумма арбитражных дел за последние 12 мес. в качестве истца составляет более 5 млн. ₽.',
+        'Number': 'В16'
+      },
+      {
+        'Type': 'ArbitrationSumDefendant',
+        'Score': 'Attention',
+        'Name': 'Значительная сумма арбитражных дел в качестве ответчика.',
+        'Description': 'Сумма арбитражных дел за последние 12 мес. в качестве ответчика составляет более 5 млн. ₽.',
+        'Number': 'В17'
+      },
+      {
+        'Type': 'BailiffSum',
+        'Score': 'Attention',
+        'Name': 'Значительная сумма исполнительных производств.',
+        'Description': 'Сумма незакрытых исполнительных производств составляет более 2 млн. ₽',
+        'Number': 'В21'
+      },
+      {
+        'Type': 'Lifetime',
+        'Score': 'Positive',
+        'Name': 'Организация существует 34 года и 5 месяцев.',
+        'Description': None,
+        'Number': 'П1'
+      },
+      {
+        'Type': 'Activity',
+        'Score': 'Positive',
+        'Name': 'Имеются данные об активности организации за последние 12 месяцев.',
+        'Description': None,
+        'Number': 'П2'
+      },
+      {
+        'Type': 'Unreported',
+        'Score': 'Positive',
+        'Name': 'Организация представляет налоговую отчетность в ФНС.',
+        'Description': None,
+        'Number': 'П3'
+      },
+      {
+        'IndividualFactors': [
+          {
+            'Item1': '0473731d-261b-4e50-a47d-3c86e7dff48f',
+            'Item2': {
+              'Type': 'MassAddress',
+              'Score': 'Positive',
+              'Name': 'Организация не найдена в реестре «массовых юридических адресов» по данным ФНС.',
+              'Description': None,
+              'Number': 'П5'
+            }
+          }
+        ],
+        'Type': 'MassAddress',
+        'Score': 'Positive',
+        'Name': 'Организация не найдена в реестре «массовых юридических адресов» по данным ФНС.',
+        'Description': None,
+        'Number': 'П5'
+      },
+      {
+        'IndividualFactors': [
+          {
+            'Item1': '0473731d-261b-4e50-a47d-3c86e7dff48f',
+            'Item2': {
+              'Type': 'AddressUnreliability',
+              'Score': 'Positive',
+              'Name': 'Не найдены недостоверные сведения в регистрационных данных о юридическом адресе.',
+              'Description': None,
+              'Number': 'П6'
+            }
+          }
+        ],
+        'Type': 'AddressUnreliability',
+        'Score': 'Positive',
+        'Name': 'Не найдены недостоверные сведения в регистрационных данных о юридическом адресе.',
+        'Description': None,
+        'Number': 'П6'
+      },
+      {
+        'IndividualFactors': [
+          {
+            'Item1': 'edf2ef57-d898-4a3c-ba88-0ee77fa5dcde',
+            'Item2': {
+              'Type': 'ManagerDisqualification',
+              'Score': 'Positive',
+              'Name': 'Руководитель организации не найден в реестре «дисквалифицированные лица» по данным ФНС.',
+              'Description': None,
+              'Number': 'П7'
+            }
+          }
+        ],
+        'Type': 'ManagerDisqualification',
+        'Score': 'Positive',
+        'Name': 'Руководитель организации не найден в реестре «дисквалифицированные лица» по данным ФНС.',
+        'Description': None,
+        'Number': 'П7'
+      },
+      {
+        'IndividualFactors': [
+          {
+            'Item1': 'edf2ef57-d898-4a3c-ba88-0ee77fa5dcde',
+            'Item2': {
+              'Type': 'ManagerUnreliability',
+              'Score': 'Positive',
+              'Name': 'Не найдены недостоверные сведения в регистрационных данных о руководителе.',
+              'Description': None,
+              'Number': 'П8'
+            }
+          },
+          {
+            'Item1': 'e788f01f-be5c-44a5-b6ac-065f1df504eb',
+            'Item2': {
+              'Type': 'ManagerUnreliability',
+              'Score': 'Positive',
+              'Name': 'Не найдены недостоверные сведения в регистрационных данных о руководителе.',
+              'Description': None,
+              'Number': 'П8'
+            }
+          },
+          {
+            'Item1': '964994a5-2463-42f8-a555-78a815e741be',
+            'Item2': {
+              'Type': 'ManagerUnreliability',
+              'Score': 'Positive',
+              'Name': 'Не найдены недостоверные сведения в регистрационных данных о руководителе.',
+              'Description': None,
+              'Number': 'П8'
+            }
+          },
+          {
+            'Item1': '4461bad7-cb9f-4463-ade3-ab939e820608',
+            'Item2': {
+              'Type': 'ManagerUnreliability',
+              'Score': 'Positive',
+              'Name': 'Не найдены недостоверные сведения в регистрационных данных о руководителе.',
+              'Description': None,
+              'Number': 'П8'
+            }
+          },
+          {
+            'Item1': 'ab7b2789-1adb-427d-aa9e-da87c09d3042',
+            'Item2': {
+              'Type': 'ManagerUnreliability',
+              'Score': 'Positive',
+              'Name': 'Не найдены недостоверные сведения в регистрационных данных о руководителе.',
+              'Description': None,
+              'Number': 'П8'
+            }
+          }
+        ],
+        'Type': 'ManagerUnreliability',
+        'Score': 'Positive',
+        'Name': 'Не найдены недостоверные сведения в регистрационных данных о руководителе.',
+        'Description': None,
+        'Number': 'П8'
+      },
+      {
+        'IndividualFactors': [
+          {
+            'Item1': 'f45f636a-561b-49ef-9105-0a4d631f30ec',
+            'Item2': {
+              'Type': 'ShareholderUnreliability',
+              'Score': 'Positive',
+              'Name': 'Не найдены недостоверные сведения в регистрационных данных об учредителе.',
+              'Description': None,
+              'Number': 'П9'
+            }
+          },
+          {
+            'Item1': 'a6ab2f63-8aa5-4bfb-8c29-8d4668cf4a50',
+            'Item2': {
+              'Type': 'ShareholderUnreliability',
+              'Score': 'Positive',
+              'Name': 'Не найдены недостоверные сведения в регистрационных данных об учредителе.',
+              'Description': None,
+              'Number': 'П9'
+            }
+          }
+        ],
+        'Type': 'ShareholderUnreliability',
+        'Score': 'Positive',
+        'Name': 'Не найдены недостоверные сведения в регистрационных данных об учредителе.',
+        'Description': None,
+        'Number': 'П9'
+      },
+      {
+        'Type': 'BankLicense',
+        'Score': 'Positive',
+        'Name': 'Действующая банковская лицензия от ЦБ РФ',
+        'Description': 'Согласно данным ЦБ РФ организация имеет действующую лицензию на осуществление банковских операций',
+        'Number': 'П21'
+      }
+    ],
+    'RiskIndexes': [
+      {
+        'Type': 'DueDiligence',
+        'Percentage': 0,
+        'FactorNumbers': [
+          
+        ]
+      },
+      {
+        'Type': 'FinancialRisk',
+        'Percentage': 0,
+        'FactorNumbers': [
+          'В16',
+          'В17',
+          'В21'
+        ]
+      }
+    ],
+    'TotalScore': 'Positive'
+  },
+  '2222058686': {
+    'Timestamp': '2025-11-29T15:21:04.7374288',
+    'Factors': [
+      {
+        'IndividualFactors': [
+          {
+            'Item1': '5fcb1764-ae01-4028-a248-010b0c4c40c7',
+            'Item2': {
+              'Type': 'MassShareholder',
+              'Score': 'Attention',
+              'Name': 'Учредитель компании основал более 10 организаций.',
+              'Description': 'Это может указывать на то, что учредитель компании является подставным лицом. Такие компании попадают под пристальное внимание ФНС как возможные фирмы-однодневки. На практике учредитель компании также может быть добросовестным лицом, ведущим реальную деятельность. Данный факт нужно анализировать в совокупности с  другими сведениями.',
+              'Number': 'В3'
+            }
+          }
+        ],
+        'Type': 'MassShareholder',
+        'Score': 'Attention',
+        'Name': 'Учредитель компании основал более 10 организаций.',
+        'Description': 'Это может указывать на то, что учредитель компании является подставным лицом. Такие компании попадают под пристальное внимание ФНС как возможные фирмы-однодневки. На практике учредитель компании также может быть добросовестным лицом, ведущим реальную деятельность. Данный факт нужно анализировать в совокупности с другими сведениями.',
+        'Number': 'В3'
+      },
+      {
+        'Type': 'Lifetime',
+        'Score': 'Positive',
+        'Name': 'Организация существует 19 лет и 3 месяца.',
+        'Description': None,
+        'Number': 'П1'
+      },
+      {
+        'Type': 'Activity',
+        'Score': 'Positive',
+        'Name': 'Имеются данные об активности организации за последние 12 месяцев.',
+        'Description': None,
+        'Number': 'П2'
+      },
+      {
+        'Type': 'Unreported',
+        'Score': 'Positive',
+        'Name': 'Организация  отсутствует в списке не предоставивших налоговую отчетность в ФНС.',
+        'Description': None,
+        'Number': 'П3'
+      },
+      {
+        'Type': 'Debtor',
+        'Score': 'Positive',
+        'Name': 'Отсутствует просроченная задолженность по налогам перед ФНС.',
+        'Description': None,
+        'Number': 'П4'
+      },
+      {
+        'IndividualFactors': [
+          {
+            'Item1': 'bdad86f2-a99f-47c0-a721-3ef6291f89a9',
+            'Item2': {
+              'Type': 'MassAddress',
+              'Score': 'Positive',
+              'Name': 'Организация не найдена в реестре «массовых юридических адресов» по данным ФНС.',
+              'Description': None,
+              'Number': 'П5'
+            }
+          }
+        ],
+        'Type': 'MassAddress',
+        'Score': 'Positive',
+        'Name': 'Организация не найдена в реестре «массовых юридических адресов» по данным ФНС.',
+        'Description': None,
+        'Number': 'П5'
+      },
+      {
+        'IndividualFactors': [
+          {
+            'Item1': 'bdad86f2-a99f-47c0-a721-3ef6291f89a9',
+            'Item2': {
+              'Type': 'AddressUnreliability',
+              'Score': 'Positive',
+              'Name': 'Не найдены недостоверные сведения в регистрационных данных о юридическом адресе.',
+              'Description': None,
+              'Number': 'П6'
+            }
+          },
+          {
+            'Item1': '3585e858-f9ac-46bf-b87a-54911093225c',
+            'Item2': {
+              'Type': 'AddressUnreliability',
+              'Score': 'Positive',
+              'Name': 'Не найдены недостоверные сведения в регистрационных данных о юридическом адресе.',
+              'Description': None,
+              'Number': 'П6'
+            }
+          },
+          {
+            'Item1': '8c795b6e-c0e9-488a-b123-9a9ab336f6a4',
+            'Item2': {
+              'Type': 'AddressUnreliability',
+              'Score': 'Positive',
+              'Name': 'Не найдены недостоверные сведения в регистрационных данных о юридическом адресе.',
+              'Description': None,
+              'Number': 'П6'
+            }
+          }
+        ],
+        'Type': 'AddressUnreliability',
+        'Score': 'Positive',
+        'Name': 'Не найдены недостоверные сведения в регистрационных данных о юридическом адресе.',
+        'Description': None,
+        'Number': 'П6'
+      },
+      {
+        'IndividualFactors': [
+          {
+            'Item1': 'adc19056-3e7e-4f38-a25a-b78500e9bb44',
+            'Item2': {
+              'Type': 'ManagerDisqualification',
+              'Score': 'Positive',
+              'Name': 'Руководитель организации не найден в реестре «дисквалифицированные лица» по данным ФНС.',
+              'Description': None,
+              'Number': 'П7'
+            }
+          }
+        ],
+        'Type': 'ManagerDisqualification',
+        'Score': 'Positive',
+        'Name': 'Руководитель организации не найден в реестре «дисквалифицированные лица» по данным ФНС.',
+        'Description': None,
+        'Number': 'П7'
+      },
+      {
+        'IndividualFactors': [
+          {
+            'Item1': 'adc19056-3e7e-4f38-a25a-b78500e9bb44',
+            'Item2': {
+              'Type': 'ManagerUnreliability',
+              'Score': 'Positive',
+              'Name': 'Не найдены недостоверные сведения в регистрационных данных о руководителе.',
+              'Description': None,
+              'Number': 'П8'
+            }
+          },
+          {
+            'Item1': '55a9c315-4767-43d2-8c76-cad9ce813d02',
+            'Item2': {
+              'Type': 'ManagerUnreliability',
+              'Score': 'Positive',
+              'Name': 'Не найдены недостоверные сведения в регистрационных данных о руководителе.',
+              'Description': None,
+              'Number': 'П8'
+            }
+          },
+          {
+            'Item1': 'c7ffe41b-cbdc-4bac-b07f-daf0447c1a3e',
+            'Item2': {
+              'Type': 'ManagerUnreliability',
+              'Score': 'Positive',
+              'Name': 'Не найдены недостоверные сведения в регистрационных данных о руководителе.',
+              'Description': None,
+              'Number': 'П8'
+            }
+          }
+        ],
+        'Type': 'ManagerUnreliability',
+        'Score': 'Positive',
+        'Name': 'Не найдены недостоверные сведения в регистрационных данных о руководителе.',
+        'Description': None,
+        'Number': 'П8'
+      },
+      {
+        'IndividualFactors': [
+          {
+            'Item1': '5fcb1764-ae01-4028-a248-010b0c4c40c7',
+            'Item2': {
+              'Type': 'ShareholderUnreliability',
+              'Score': 'Positive',
+              'Name': 'Не найдены недостоверные сведения в регистрационных данных об учредителе.',
+              'Description': None,
+              'Number': 'П9'
+            }
+          },
+          {
+            'Item1': '319d5a7c-c0c8-4076-8784-dcb4bf62adf6',
+            'Item2': {
+              'Type': 'ShareholderUnreliability',
+              'Score': 'Positive',
+              'Name': 'Не найдены недостоверные сведения в регистрационных данных об учредителе.',
+              'Description': None,
+              'Number': 'П9'
+            }
+          }
+        ],
+        'Type': 'ShareholderUnreliability',
+        'Score': 'Positive',
+        'Name': 'Не найдены недостоверные сведения в регистрационных данных об учредителе.',
+        'Description': None,
+        'Number': 'П9'
+      },
+      {
+        'Type': 'BailiffCurrent',
+        'Score': 'Positive',
+        'Name': 'Не найдены текущие исполнительные производства за последние 12 месяцев.',
+        'Description': None,
+        'Number': 'П10'
+      },
+      {
+        'Type': 'FinanceProfit',
+        'Score': 'Positive',
+        'Name': 'Найдена бухгалтерская отчетность за 2024 г.',
+        'Description': None,
+        'Number': 'П12'
+      },
+      {
+        'Type': 'Bankruptcy',
+        'Score': 'Positive',
+        'Name': 'Не найдены сообщения о банкротстве компании.',
+        'Description': None,
+        'Number': 'П15'
+      },
+      {
+        'Type': 'ArbitrationSumDefendant',
+        'Score': 'Positive',
+        'Name': 'Не найдено арбитражных дел в качестве ответчика за последние 12 месяцев.',
+        'Description': None,
+        'Number': 'П16'
+      }
+    ],
+    'RiskIndexes': [
+      {
+        'Type': 'DueDiligence',
+        'Percentage': 46,
+        'FactorNumbers': [
+          'В3'
+        ]
+      },
+      {
+        'Type': 'FinancialRisk',
+        'Percentage': 0,
+        'FactorNumbers': [
+          
+        ]
+      }
+    ],
+    'TotalScore': 'Attention'
+  },
+  '5003052454': {
+    'Timestamp': '2025-11-29T15:21:05.1456084',
+    'Factors': [
+      {
+        'Type': 'RegistrationDataChange',
+        'Score': 'Attention',
+        'Name': 'Изменение регистрационных данных за последние 6 месяцев.',
+        'Description': '20.11.2025 Смена адреса.',
+        'Number': 'В25'
+      },
+      {
+        'Type': 'Bankruptcy',
+        'Score': 'Attention',
+        'Name': 'Рассматривается арбитражное дело о возможном банкротстве.',
+        'Description': 'На организацию подан иск о банкротстве. Дело может перейти в стадию банкротства или будет закрыто.',
+        'Number': 'В41'
+      },
+      {
+        'Type': 'Lifetime',
+        'Score': 'Positive',
+        'Name': 'Организация существует 20 лет и 11 месяцев.',
+        'Description': None,
+        'Number': 'П1'
+      },
+      {
+        'Type': 'Activity',
+        'Score': 'Positive',
+        'Name': 'Имеются данные об активности организации за последние 12 месяцев.',
+        'Description': None,
+        'Number': 'П2'
+      },
+      {
+        'Type': 'Unreported',
+        'Score': 'Positive',
+        'Name': 'Организация представляет налоговую отчетность в ФНС.',
+        'Description': None,
+        'Number': 'П3'
+      },
+      {
+        'Type': 'Debtor',
+        'Score': 'Positive',
+        'Name': 'Отсутствует просроченная задолженность по налогам перед ФНС.',
+        'Description': None,
+        'Number': 'П4'
+      },
+      {
+        'IndividualFactors': [
+          {
+            'Item1': '652a991b-585f-4657-a966-2edd1b826cd3',
+            'Item2': {
+              'Type': 'MassAddress',
+              'Score': 'Positive',
+              'Name': 'Организация не найдена в реестре «массовых юридических адресов» по данным ФНС.',
+              'Description': None,
+              'Number': 'П5'
+            }
+          }
+        ],
+        'Type': 'MassAddress',
+        'Score': 'Positive',
+        'Name': 'Организация не найдена в реестре «массовых юридических адресов» по данным ФНС.',
+        'Description': None,
+        'Number': 'П5'
+      },
+      {
+        'IndividualFactors': [
+          {
+            'Item1': '652a991b-585f-4657-a966-2edd1b826cd3',
+            'Item2': {
+              'Type': 'AddressUnreliability',
+              'Score': 'Positive',
+              'Name': 'Не найдены недостоверные сведения в регистрационных данных о юридическом адресе.',
+              'Description': None,
+              'Number': 'П6'
+            }
+          },
+          {
+            'Item1': '6c65d177-731a-41bb-b3ee-f04f5d51561b',
+            'Item2': {
+              'Type': 'AddressUnreliability',
+              'Score': 'Positive',
+              'Name': 'Не найдены недостоверные сведения в регистрационных данных о юридическом адресе.',
+              'Description': None,
+              'Number': 'П6'
+            }
+          },
+          {
+            'Item1': 'f0ca6862-95a0-4cbd-a997-0bbb6027e6cd',
+            'Item2': {
+              'Type': 'AddressUnreliability',
+              'Score': 'Positive',
+              'Name': 'Не найдены недостоверные сведения в регистрационных данных о юридическом адресе.',
+              'Description': None,
+              'Number': 'П6'
+            }
+          },
+          {
+            'Item1': '047e6974-8d18-4ec6-9acf-02d041daf68c',
+            'Item2': {
+              'Type': 'AddressUnreliability',
+              'Score': 'Positive',
+              'Name': 'Не найдены недостоверные сведения в регистрационных данных о юридическом адресе.',
+              'Description': None,
+              'Number': 'П6'
+            }
+          },
+          {
+            'Item1': '86ac4dc0-8209-4cc4-895b-0acbc0a976cb',
+            'Item2': {
+              'Type': 'AddressUnreliability',
+              'Score': 'Positive',
+              'Name': 'Не найдены недостоверные сведения в регистрационных данных о юридическом адресе.',
+              'Description': None,
+              'Number': 'П6'
+            }
+          },
+          {
+            'Item1': '4561b946-0228-4c07-b632-4899f211bb65',
+            'Item2': {
+              'Type': 'AddressUnreliability',
+              'Score': 'Positive',
+              'Name': 'Не найдены недостоверные сведения в регистрационных данных о юридическом адресе.',
+              'Description': None,
+              'Number': 'П6'
+            }
+          }
+        ],
+        'Type': 'AddressUnreliability',
+        'Score': 'Positive',
+        'Name': 'Не найдены недостоверные сведения в регистрационных данных о юридическом адресе.',
+        'Description': None,
+        'Number': 'П6'
+      },
+      {
+        'IndividualFactors': [
+          {
+            'Item1': '4c8fc142-0d13-47ec-aa70-45b34c6143b3',
+            'Item2': {
+              'Type': 'ManagerDisqualification',
+              'Score': 'Positive',
+              'Name': 'Руководитель организации не найден в реестре «дисквалифицированные лица» по данным ФНС.',
+              'Description': None,
+              'Number': 'П7'
+            }
+          }
+        ],
+        'Type': 'ManagerDisqualification',
+        'Score': 'Positive',
+        'Name': 'Руководитель организации не найден в реестре «дисквалифицированные лица» по данным ФНС.',
+        'Description': None,
+        'Number': 'П7'
+      },
+      {
+        'IndividualFactors': [
+          {
+            'Item1': '4c8fc142-0d13-47ec-aa70-45b34c6143b3',
+            'Item2': {
+              'Type': 'ManagerUnreliability',
+              'Score': 'Positive',
+              'Name': 'Не найдены недостоверные сведения в регистрационных данных о руководителе.',
+              'Description': None,
+              'Number': 'П8'
+            }
+          },
+          {
+            'Item1': '22a9951e-027c-4119-b2f3-1af097209194',
+            'Item2': {
+              'Type': 'ManagerUnreliability',
+              'Score': 'Positive',
+              'Name': 'Не найдены недостоверные сведения в регистрационных данных о руководителе.',
+              'Description': None,
+              'Number': 'П8'
+            }
+          },
+          {
+            'Item1': 'd82a1eb3-e7d8-484b-b297-cdef6ee832b5',
+            'Item2': {
+              'Type': 'ManagerUnreliability',
+              'Score': 'Positive',
+              'Name': 'Не найдены недостоверные сведения в регистрационных данных о руководителе.',
+              'Description': None,
+              'Number': 'П8'
+            }
+          },
+          {
+            'Item1': 'af5abb5a-5906-4687-87bc-9f39949fb97a',
+            'Item2': {
+              'Type': 'ManagerUnreliability',
+              'Score': 'Positive',
+              'Name': 'Не найдены недостоверные сведения в регистрационных данных о руководителе.',
+              'Description': None,
+              'Number': 'П8'
+            }
+          }
+        ],
+        'Type': 'ManagerUnreliability',
+        'Score': 'Positive',
+        'Name': 'Не найдены недостоверные сведения в регистрационных данных о руководителе.',
+        'Description': None,
+        'Number': 'П8'
+      },
+      {
+        'IndividualFactors': [
+          {
+            'Item1': 'f27e2f90-2df3-4f08-89ee-5dc192e73034',
+            'Item2': {
+              'Type': 'ShareholderUnreliability',
+              'Score': 'Positive',
+              'Name': 'Не найдены недостоверные сведения в регистрационных данных об учредителе.',
+              'Description': None,
+              'Number': 'П9'
+            }
+          },
+          {
+            'Item1': '336b6c95-ac7f-4b1f-a49c-a64dea3cc169',
+            'Item2': {
+              'Type': 'ShareholderUnreliability',
+              'Score': 'Positive',
+              'Name': 'Не найдены недостоверные сведения в регистрационных данных об учредителе.',
+              'Description': None,
+              'Number': 'П9'
+            }
+          }
+        ],
+        'Type': 'ShareholderUnreliability',
+        'Score': 'Positive',
+        'Name': 'Не найдены недостоверные сведения в регистрационных данных об учредителе.',
+        'Description': None,
+        'Number': 'П9'
+      },
+      {
+        'Type': 'FinanceProfit',
+        'Score': 'Positive',
+        'Name': 'Найдена бухгалтерская отчетность за 2024 г.',
+        'Description': None,
+        'Number': 'П12'
+      }
+    ],
+    'RiskIndexes': [
+      {
+        'Type': 'DueDiligence',
+        'Percentage': 0,
+        'FactorNumbers': [
+          
+        ]
+      },
+      {
+        'Type': 'FinancialRisk',
+        'Percentage': 40,
+        'FactorNumbers': [
+          'В41'
+        ]
+      }
+    ],
+    'TotalScore': 'Attention'
+  },
+  '7709439560': {
+    'Timestamp': '2025-11-29T15:21:45.4610769',
+    'Factors': [
+      {
+        'IndividualFactors': [
+          {
+            'Item1': 'd5c7a6c3-ab2c-4e57-8f75-7469d8dadcce',
+            'Item2': {
+              'Type': 'MassManager',
+              'Score': 'Attention',
+              'Name': 'Руководитель компании управляет 3 или более организациями.',
+              'Description': 'Это может указывать на то, что руководитель компании является подставным лицом. Такие компании попадают под пристальное внимание ФНС как возможные фирмы-однодневки. На практике руководитель также может быть добросовестным лицом, ведущим реальную деятельность. Данный факт нужно анализировать в совокупности с другими сведениями.',
+              'Number': 'В38'
+            }
+          }
+        ],
+        'Type': 'MassManager',
+        'Score': 'Attention',
+        'Name': 'Руководитель компании управляет 3 или более организациями.',
+        'Description': 'Это может указывать на то, что руководитель компании является подставным лицом. Такие компании попадают под пристальное внимание ФНС как возможные фирмы-однодневки. На практике руководитель также может быть добросовестным лицом, ведущим реальную деятельность. Данный факт нужно анализировать в совокупности с другими сведениями.',
+        'Number': 'В38'
+      },
+      {
+        'Type': 'Lifetime',
+        'Score': 'Positive',
+        'Name': 'Организация существует 19 лет и 3 месяца.',
+        'Description': None,
+        'Number': 'П1'
+      },
+      {
+        'Type': 'Activity',
+        'Score': 'Positive',
+        'Name': 'Имеются данные об активности организации за последние 12 месяцев.',
+        'Description': None,
+        'Number': 'П2'
+      },
+      {
+        'Type': 'Unreported',
+        'Score': 'Positive',
+        'Name': 'Организация отсутствует в списке не предоставивших налоговую отчетность в ФНС.',
+        'Description': None,
+        'Number': 'П3'
+      },
+      {
+        'Type': 'Debtor',
+        'Score': 'Positive',
+        'Name': 'Отсутствует просроченная задолженность по налогам перед ФНС.',
+        'Description': None,
+        'Number': 'П4'
+      },
+      {
+        'IndividualFactors': [
+          {
+            'Item1': '177b1c07-7891-40c5-9114-f29059ad1b41',
+            'Item2': {
+              'Type': 'MassAddress',
+              'Score': 'Positive',
+              'Name': 'Организация не найдена в реестре «массовых юридических адресов» по данным ФНС.',
+              'Description': None,
+              'Number': 'П5'
+            }
+          }
+        ],
+        'Type': 'MassAddress',
+        'Score': 'Positive',
+        'Name': 'Организация не найдена в реестре «массовых юридических адресов» по данным ФНС.',
+        'Description': None,
+        'Number': 'П5'
+      },
+      {
+        'IndividualFactors': [
+          {
+            'Item1': '177b1c07-7891-40c5-9114-f29059ad1b41',
+            'Item2': {
+              'Type': 'AddressUnreliability',
+              'Score': 'Positive',
+              'Name': 'Не найдены недостоверные сведения в регистрационных данных о юридическом адресе.',
+              'Description': None,
+              'Number': 'П6'
+            }
+          },
+          {
+            'Item1': 'bd36bc39-7c3b-47e1-bf89-adb5efc79c3a',
+            'Item2': {
+              'Type': 'AddressUnreliability',
+              'Score': 'Positive',
+              'Name': 'Не найдены недостоверные сведения в регистрационных данных о юридическом адресе.',
+              'Description': None,
+              'Number': 'П6'
+            }
+          },
+          {
+            'Item1': '509e14d2-9c39-4ecb-bb7c-3d37202cbe67',
+            'Item2': {
+              'Type': 'AddressUnreliability',
+              'Score': 'Positive',
+              'Name': 'Не найдены недостоверные сведения в регистрационных данных о юридическом адресе.',
+              'Description': None,
+              'Number': 'П6'
+            }
+          }
+        ],
+        'Type': 'AddressUnreliability',
+        'Score': 'Positive',
+        'Name': 'Не найдены недостоверные сведения в регистрационных данных о юридическом адресе.',
+        'Description': None,
+        'Number': 'П6'
+      },
+      {
+        'IndividualFactors': [
+          {
+            'Item1': 'd5c7a6c3-ab2c-4e57-8f75-7469d8dadcce',
+            'Item2': {
+              'Type': 'ManagerDisqualification',
+              'Score': 'Positive',
+              'Name': 'Руководитель организации не найден в реестре «дисквалифицированные лица» по данным ФНС.',
+              'Description': None,
+              'Number': 'П7'
+            }
+          },
+          {
+            'Item1': 'acb4a44b-475e-4af5-88ec-92eca6840aeb',
+            'Item2': {
+              'Type': 'ManagerDisqualification',
+              'Score': 'Positive',
+              'Name': 'Руководитель организации не найден в реестре «дисквалифицированные лица» по данным ФНС.',
+              'Description': None,
+              'Number': 'П7'
+            }
+          }
+        ],
+        'Type': 'ManagerDisqualification',
+        'Score': 'Positive',
+        'Name': 'Руководитель организации не найден в реестре «дисквалифицированные лица» по данным ФНС.',
+        'Description': None,
+        'Number': 'П7'
+      },
+      {
+        'IndividualFactors': [
+          {
+            'Item1': 'd5c7a6c3-ab2c-4e57-8f75-7469d8dadcce',
+            'Item2': {
+              'Type': 'ManagerUnreliability',
+              'Score': 'Positive',
+              'Name': 'Не найдены недостоверные сведения в регистрационных данных о руководителе.',
+              'Description': None,
+              'Number': 'П8'
+            }
+          },
+          {
+            'Item1': 'acb4a44b-475e-4af5-88ec-92eca6840aeb',
+            'Item2': {
+              'Type': 'ManagerUnreliability',
+              'Score': 'Positive',
+              'Name': 'Не найдены недостоверные сведения в регистрационных данных о руководителе.',
+              'Description': None,
+              'Number': 'П8'
+            }
+          },
+          {
+            'Item1': '11783fdc-b989-4538-b07c-3693007ea186',
+            'Item2': {
+              'Type': 'ManagerUnreliability',
+              'Score': 'Positive',
+              'Name': 'Не найдены недостоверные сведения в регистрационных данных о руководителе.',
+              'Description': None,
+              'Number': 'П8'
+            }
+          },
+          {
+            'Item1': 'e5b96601-6f92-4c73-8d7c-331ea20ab8cd',
+            'Item2': {
+              'Type': 'ManagerUnreliability',
+              'Score': 'Positive',
+              'Name': 'Не найдены недостоверные сведения в регистрационных данных о руководителе.',
+              'Description': None,
+              'Number': 'П8'
+            }
+          }
+        ],
+        'Type': 'ManagerUnreliability',
+        'Score': 'Positive',
+        'Name': 'Не найдены недостоверные сведения в регистрационных данных о руководителе.',
+        'Description': None,
+        'Number': 'П8'
+      },
+      {
+        'IndividualFactors': [
+          {
+            'Item1': 'e44a7600-6c6c-418f-b6ce-fcd3cd50bb45',
+            'Item2': {
+              'Type': 'ShareholderUnreliability',
+              'Score': 'Positive',
+              'Name': 'Не найдены недостоверные сведения в регистрационных данных об учредителе.',
+              'Description': None,
+              'Number': 'П9'
+            }
+          }
+        ],
+        'Type': 'ShareholderUnreliability',
+        'Score': 'Positive',
+        'Name': 'Не найдены недостоверные сведения в регистрационных данных об учредителе.',
+        'Description': None,
+        'Number': 'П9'
+      },
+      {
+        'Type': 'BailiffCurrent',
+        'Score': 'Positive',
+        'Name': 'Не найдены текущие исполнительные производства за последние 12 месяцев.',
+        'Description': None,
+        'Number': 'П10'
+      },
+      {
+        'Type': 'FinanceProfit',
+        'Score': 'Positive',
+        'Name': 'Найдена бухгалтерская  отчетность за 2024 г.',
+        'Description': None,
+        'Number': 'П12'
+      },
+      {
+        'Type': 'Bankruptcy',
+        'Score': 'Positive',
+        'Name': 'Не найдены сообщения о банкротстве компании.',
+        'Description': None,
+        'Number': 'П15'
+      }
+    ],
+    'RiskIndexes': [
+      {
+        'Type': 'DueDiligence',
+        'Percentage': 46,
+        'FactorNumbers': [
+          'В38'
+        ]
+      },
+      {
+        'Type': 'FinancialRisk',
+        'Percentage': 0,
+        'FactorNumbers': [
+          
+        ]
+      }
+    ],
+    'TotalScore': 'Attention'
+  },
+  '3664016814': {
+    'Timestamp': '2025-11-29T15:22:05.4734159',
+    'Factors': [
+      {
+        'Type': 'Lifetime',
+        'Score': 'Positive',
+        'Name': 'Организация существует 29 лет и 7 месяцев.',
+        'Description': None,
+        'Number': 'П1'
+      },
+      {
+        'Type': 'Activity',
+        'Score': 'Positive',
+        'Name': 'Имеются данные об активности организации за последние 12 месяцев.',
+        'Description': None,
+        'Number': 'П2'
+      },
+      {
+        'Type': 'Unreported',
+        'Score': 'Positive',
+        'Name': 'Организация отсутствует в списке не предоставивших налоговую отчетность в ФНС.',
+        'Description': None,
+        'Number': 'П3'
+      },
+      {
+        'Type': 'Debtor',
+        'Score': 'Positive',
+        'Name': 'Отсутствует просроченная задолженность по налогам перед ФНС.',
+        'Description': None,
+        'Number': 'П4'
+      },
+      {
+        'IndividualFactors': [
+          {
+            'Item1': 'e69ba3b6-e84f-4c42-a860-4c2bb5c4c360',
+            'Item2': {
+              'Type': 'MassAddress',
+              'Score': 'Positive',
+              'Name': 'Организация не найдена в реестре «массовых юридических адресов» по данным ФНС.',
+              'Description': None,
+              'Number': 'П5'
+            }
+          }
+        ],
+        'Type': 'MassAddress',
+        'Score': 'Positive',
+        'Name': 'Организация не найдена в реестре «массовых юридических адресов» по данным ФНС.',
+        'Description': None,
+        'Number': 'П5'
+      },
+      {
+        'IndividualFactors': [
+          {
+            'Item1': 'e69ba3b6-e84f-4c42-a860-4c2bb5c4c360',
+            'Item2': {
+              'Type': 'AddressUnreliability',
+              'Score': 'Positive',
+              'Name': 'Не найдены недостоверные сведения в регистрационных данных о юридическом адресе.',
+              'Description': None,
+              'Number': 'П6'
+            }
+          }
+        ],
+        'Type': 'AddressUnreliability',
+        'Score': 'Positive',
+        'Name': 'Не найдены недостоверные сведения в регистрационных данных о юридическом адресе.',
+        'Description': None,
+        'Number': 'П6'
+      },
+      {
+        'IndividualFactors': [
+          {
+            'Item1': '16804ea3-d3d9-4f2f-b455-db8f188f12f4',
+            'Item2': {
+              'Type': 'ManagerDisqualification',
+              'Score': 'Positive',
+              'Name': 'Руководитель организации не найден в реестре «дисквалифицированные лица» по данным ФНС.',
+              'Description': None,
+              'Number': 'П7'
+            }
+          }
+        ],
+        'Type': 'ManagerDisqualification',
+        'Score': 'Positive',
+        'Name': 'Руководитель организации не найден в реестре «дисквалифицированные лица» по данным ФНС.',
+        'Description': None,
+        'Number': 'П7'
+      },
+      {
+        'IndividualFactors': [
+          {
+            'Item1': '16804ea3-d3d9-4f2f-b455-db8f188f12f4',
+            'Item2': {
+              'Type': 'ManagerUnreliability',
+              'Score': 'Positive',
+              'Name': 'Не найдены недостоверные сведения в регистрационных данных о руководителе.',
+              'Description': None,
+              'Number': 'П8'
+            }
+          },
+          {
+            'Item1': '14396552-c583-4b4d-b7e0-d5a7b0a6f0a2',
+            'Item2': {
+              'Type': 'ManagerUnreliability',
+              'Score': 'Positive',
+              'Name': 'Не найдены недостоверные сведения в регистрационных данных о руководителе.',
+              'Description': None,
+              'Number': 'П8'
+            }
+          }
+        ],
+        'Type': 'ManagerUnreliability',
+        'Score': 'Positive',
+        'Name': 'Не найдены недостоверные сведения в регистрационных данных о руководителе.',
+        'Description': None,
+        'Number': 'П8'
+      },
+      {
+        'IndividualFactors': [
+          
+        ],
+        'Type': 'ShareholderUnreliability',
+        'Score': 'Positive',
+        'Name': 'Не найдены недостоверные сведения в регистрационных данных об учредителе.',
+        'Description': None,
+        'Number': 'П9'
+      },
+      {
+        'Type': 'BailiffCurrent',
+        'Score': 'Positive',
+        'Name': 'Не найдены текущие исполнительные производства за последние 12 месяцев.',
+        'Description': None,
+        'Number': 'П10'
+      },
+      {
+        'Type': 'Arbitration',
+        'Score': 'Positive',
+        'Name': 'Организация не участвовала в судебных разбирательствах за последние 12 месяцев.',
+        'Description': None,
+        'Number': 'П11'
+      },
+      {
+        'Type': 'FinanceProfit',
+        'Score': 'Positive',
+        'Name': 'Найдена бухгалтерская отчетность за 2024 г.',
+        'Description': None,
+        'Number': 'П12'
+      },
+      {
+        'Type': 'Bankruptcy',
+        'Score': 'Positive',
+        'Name': 'Не найдены сообщения о банкротстве  компании.',
+        'Description': None,
+        'Number': 'П15'
+      }
+    ],
+    'RiskIndexes': [
+      {
+        'Type': 'DueDiligence',
+        'Percentage': 0,
+        'FactorNumbers': [
+          
+        ]
+      },
+      {
+        'Type': 'FinancialRisk',
+        'Percentage': 0,
+        'FactorNumbers': [
+          
+        ]
+      }
+    ],
+    'TotalScore': 'Positive'
+  },
+  '7730257499': {
+    'Timestamp': '2025-11-29T15:22:21.7284679',
+    'Factors': [
+      {
+        'Type': 'Finance',
+        'Score': 'Attention',
+        'Name': 'Проанализирована бухгалтерская отчетность за 2024 г.',
+        'Description': 'По данным ФНС, организация несет убытки.',
+        'Number': 'В5'
+      },
+      {
+        'IndividualFactors': [
+          {
+            'Item1': '66901234-b4b8-4899-8d5c-9c1de7ee43fc',
+            'Item2': {
+              'Type': 'MassManager',
+              'Score': 'Attention',
+              'Name': 'Руководитель компании управляет 3 или более организациями.',
+              'Description': 'Это может указывать на то, что руководитель компании является подставным лицом. Такие компании попадают под пристальное внимание ФНС как возможные фирмы-однодневки. На практике руководитель также может быть добросовестным лицом, ведущим реальную деятельность. Данный факт нужно анализировать в совокупности с другими сведениями.',
+              'Number': 'В38'
+            }
+          }
+        ],
+        'Type': 'MassManager',
+        'Score': 'Attention',
+        'Name': 'Руководитель компании управляет 3 или более организациями.',
+        'Description': 'Это может указывать на то, что руководитель компании является подставным лицом. Такие компании попадают под пристальное внимание ФНС как возможные фирмы-однодневки. На практике руководитель также может быть добросовестным лицом, ведущим реальную деятельность. Данный факт нужно анализировать в совокупности с другими сведениями.',
+        'Number': 'В38'
+      },
+      {
+        'Type': 'Lifetime',
+        'Score': 'Positive',
+        'Name': 'Организация существует 5 лет и 5 месяцев.',
+        'Description': None,
+        'Number': 'П1'
+      },
+      {
+        'Type': 'Activity',
+        'Score': 'Positive',
+        'Name': 'Имеются данные об активности организации за последние 12 месяцев.',
+        'Description': None,
+        'Number': 'П2'
+      },
+      {
+        'Type': 'Unreported',
+        'Score': 'Positive',
+        'Name': 'Организация отсутствует в списке не предоставивших налоговую отчетность в ФНС.',
+        'Description': None,
+        'Number': 'П3'
+      },
+      {
+        'Type': 'Debtor',
+        'Score': 'Positive',
+        'Name': 'Отсутствует просроченная задолженность по налогам перед ФНС.',
+        'Description': None,
+        'Number': 'П4'
+      },
+      {
+        'IndividualFactors': [
+          {
+            'Item1': 'bc022a25-e1fd-436d-8d96-971eea0fe6d8',
+            'Item2': {
+              'Type': 'MassAddress',
+              'Score': 'Positive',
+              'Name': 'Организация не найдена в реестре «массовых юридических адресов» по данным ФНС.',
+              'Description': None,
+              'Number': 'П5'
+            }
+          }
+        ],
+        'Type': 'MassAddress',
+        'Score': 'Positive',
+        'Name': 'Организация не найдена в реестре «массовых юридических  адресов» по данным ФНС.',
+        'Description': None,
+        'Number': 'П5'
+      },
+      {
+        'IndividualFactors': [
+          {
+            'Item1': 'bc022a25-e1fd-436d-8d96-971eea0fe6d8',
+            'Item2': {
+              'Type': 'AddressUnreliability',
+              'Score': 'Positive',
+              'Name': 'Не найдены недостоверные сведения в регистрационных данных о юридическом адресе.',
+              'Description': None,
+              'Number': 'П6'
+            }
+          }
+        ],
+        'Type': 'AddressUnreliability',
+        'Score': 'Positive',
+        'Name': 'Не найдены недостоверные сведения в регистрационных данных о юридическом адресе.',
+        'Description': None,
+        'Number': 'П6'
+      },
+      {
+        'IndividualFactors': [
+          {
+            'Item1': '66901234-b4b8-4899-8d5c-9c1de7ee43fc',
+            'Item2': {
+              'Type': 'ManagerDisqualification',
+              'Score': 'Positive',
+              'Name': 'Руководитель организации не найден в реестре «дисквалифицированные лица» по данным ФНС.',
+              'Description': None,
+              'Number': 'П7'
+            }
+          }
+        ],
+        'Type': 'ManagerDisqualification',
+        'Score': 'Positive',
+        'Name': 'Руководитель организации не найден в реестре «дисквалифицированные лица» по данным ФНС.',
+        'Description': None,
+        'Number': 'П7'
+      },
+      {
+        'IndividualFactors': [
+          {
+            'Item1': '66901234-b4b8-4899-8d5c-9c1de7ee43fc',
+            'Item2': {
+              'Type': 'ManagerUnreliability',
+              'Score': 'Positive',
+              'Name': 'Не найдены недостоверные сведения в регистрационных данных о руководителе.',
+              'Description': None,
+              'Number': 'П8'
+            }
+          }
+        ],
+        'Type': 'ManagerUnreliability',
+        'Score': 'Positive',
+        'Name': 'Не найдены недостоверные сведения в регистрационных данных о руководителе.',
+        'Description': None,
+        'Number': 'П8'
+      },
+      {
+        'IndividualFactors': [
+          {
+            'Item1': '9d1bace4-7e61-4c7f-bfbc-e0daa4bcadc1',
+            'Item2': {
+              'Type': 'ShareholderUnreliability',
+              'Score': 'Positive',
+              'Name': 'Не найдены недостоверные сведения в регистрационных данных об учредителе.',
+              'Description': None,
+              'Number': 'П9'
+            }
+          }
+        ],
+        'Type': 'ShareholderUnreliability',
+        'Score': 'Positive',
+        'Name': 'Не найдены недостоверные сведения в регистрационных данных об учредителе.',
+        'Description': None,
+        'Number': 'П9'
+      },
+      {
+        'Type': 'FinanceProfit',
+        'Score': 'Positive',
+        'Name': 'Найдена бухгалтерская отчетность за 2024 г.',
+        'Description': None,
+        'Number': 'П12'
+      },
+      {
+        'Type': 'Bankruptcy',
+        'Score': 'Positive',
+        'Name': 'Не найдены сообщения о банкротстве компании.',
+        'Description': None,
+        'Number': 'П15'
+      }
+    ],
+    'RiskIndexes': [
+      {
+        'Type': 'DueDiligence',
+        'Percentage': 46,
+        'FactorNumbers': [
+          'В38'
+        ]
+      },
+      {
+        'Type': 'FinancialRisk',
+        'Percentage': 30,
+        'FactorNumbers': [
+          'В5'
+        ]
+      }
+    ],
+    'TotalScore': 'Attention'
+  },
+  '2308029729': {
+    'Timestamp': '2025-11-29T15:22:38.368101',
+    'Factors': [
+      {
+        'Type': 'Finance',
+        'Score': 'Attention',
+        'Name': 'Проанализирована бухгалтерская отчетность за 2024 г.',
+        'Description': 'По данным ФНС, выручка организации равна нулю. Это может свидетельствовать об отсутствии ведения  деятельности юридическим лицом.',
+        'Number': 'В6'
+      },
+      {
+        'Type': 'Lifetime',
+        'Score': 'Positive',
+        'Name': 'Организация существует  26 лет и 5 месяцев.',
+        'Description': None,
+        'Number': 'П1'
+      },
+      {
+        'Type': 'Activity',
+        'Score': 'Positive',
+        'Name': 'Имеются данные об активности организации за последние 12 месяцев.',
+        'Description': None,
+        'Number': 'П2'
+      },
+      {
+        'Type': 'Unreported',
+        'Score': 'Positive',
+        'Name': 'Организация отсутствует в списке не предоставивших налоговую отчетность в ФНС.',
+        'Description': None,
+        'Number': 'П3'
+      },
+      {
+        'Type': 'Debtor',
+        'Score': 'Positive',
+        'Name': 'Отсутствует просроченная задолженность по налогам перед ФНС.',
+        'Description': None,
+        'Number': 'П4'
+      },
+      {
+        'IndividualFactors': [
+          {
+            'Item1': '8e4e9bab-5a7d-4335-a725-f04ef9878723',
+            'Item2': {
+              'Type': 'MassAddress',
+              'Score': 'Positive',
+              'Name': 'Организация не найдена в реестре «массовых юридических адресов» по данным ФНС.',
+              'Description': None,
+              'Number': 'П5'
+            }
+          }
+        ],
+        'Type': 'MassAddress',
+        'Score': 'Positive',
+        'Name': 'Организация не найдена в реестре «массовых юридических адресов» по данным ФНС.',
+        'Description': None,
+        'Number': 'П5'
+      },
+      {
+        'IndividualFactors': [
+          {
+            'Item1': '8e4e9bab-5a7d-4335-a725-f04ef9878723',
+            'Item2': {
+              'Type': 'AddressUnreliability',
+              'Score': 'Positive',
+              'Name': 'Не найдены недостоверные сведения в регистрационных данных о юридическом адресе.',
+              'Description': None,
+              'Number': 'П6'
+            }
+          },
+          {
+            'Item1': '18b0c936-5092-4931-944f-fdc6b0a1c89e',
+            'Item2': {
+              'Type': 'AddressUnreliability',
+              'Score': 'Positive',
+              'Name': 'Не найдены недостоверные сведения в регистрационных данных о юридическом адресе.',
+              'Description': None,
+              'Number': 'П6'
+            }
+          }
+        ],
+        'Type': 'AddressUnreliability',
+        'Score': 'Positive',
+        'Name': 'Не найдены недостоверные сведения в регистрационных данных о юридическом адресе.',
+        'Description': None,
+        'Number': 'П6'
+      },
+      {
+        'IndividualFactors': [
+          {
+            'Item1': 'f42c5036-2773-4c95-b6aa-caeae62b5511',
+            'Item2': {
+              'Type': 'ManagerDisqualification',
+              'Score': 'Positive',
+              'Name': 'Руководитель организации не найден в реестре «дисквалифицированные лица» по данным ФНС.',
+              'Description': None,
+              'Number': 'П7'
+            }
+          }
+        ],
+        'Type': 'ManagerDisqualification',
+        'Score': 'Positive',
+        'Name': 'Руководитель организации не найден в реестре «дисквалифицированные лица» по данным ФНС.',
+        'Description': None,
+        'Number': 'П7'
+      },
+      {
+        'IndividualFactors': [
+          {
+            'Item1': 'f42c5036-2773-4c95-b6aa-caeae62b5511',
+            'Item2': {
+              'Type': 'ManagerUnreliability',
+              'Score': 'Positive',
+              'Name': 'Не найдены недостоверные сведения в регистрационных данных о руководителе.',
+              'Description': None,
+              'Number': 'П8'
+            }
+          },
+          {
+            'Item1': '49bd0e19-1c85-4f10-8cba-62a843aacd12',
+            'Item2': {
+              'Type': 'ManagerUnreliability',
+              'Score': 'Positive',
+              'Name': 'Не найдены недостоверные сведения в регистрационных данных о руководителе.',
+              'Description': None,
+              'Number': 'П8'
+            }
+          },
+          {
+            'Item1': 'a7280f0b-1621-4b45-a22e-2a398420b8b1',
+            'Item2': {
+              'Type': 'ManagerUnreliability',
+              'Score': 'Positive',
+              'Name': 'Не найдены недостоверные сведения в регистрационных данных о руководителе.',
+              'Description': None,
+              'Number': 'П8'
+            }
+          },
+          {
+            'Item1': '8c4bbef9-fb5c-484d-af26-990cce4ed783',
+            'Item2': {
+              'Type': 'ManagerUnreliability',
+              'Score': 'Positive',
+              'Name': 'Не найдены недостоверные сведения в регистрационных данных о руководителе.',
+              'Description': None,
+              'Number': 'П8'
+            }
+          },
+          {
+            'Item1': 'da0d454a-f4e8-4d3a-ae58-6c8b5ff7a877',
+            'Item2': {
+              'Type': 'ManagerUnreliability',
+              'Score': 'Positive',
+              'Name': 'Не найдены недостоверные сведения в регистрационных данных о руководителе.',
+              'Description': None,
+              'Number': 'П8'
+            }
+          },
+          {
+            'Item1': '59281643-add3-4289-82a3-d368ebc8e268',
+            'Item2': {
+              'Type': 'ManagerUnreliability',
+              'Score': 'Positive',
+              'Name': 'Не найдены недостоверные сведения в регистрационных данных о руководителе.',
+              'Description': None,
+              'Number': 'П8'
+            }
+          }
+        ],
+        'Type': 'ManagerUnreliability',
+        'Score': 'Positive',
+        'Name': 'Не найдены недостоверные сведения в регистрационных данных о руководителе.',
+        'Description': None,
+        'Number': 'П8'
+      },
+      {
+        'IndividualFactors': [
+          {
+            'Item1': '1210a67f-0b88-4aa9-b998-02f225504a66',
+            'Item2': {
+              'Type': 'ShareholderUnreliability',
+              'Score': 'Positive',
+              'Name': 'Не найдены недостоверные сведения в регистрационных данных об учредителе.',
+              'Description': None,
+              'Number': 'П9'
+            }
+          },
+          {
+            'Item1': '5796f4ce-35da-4011-937a-05dc511f94e1',
+            'Item2': {
+              'Type': 'ShareholderUnreliability',
+              'Score': 'Positive',
+              'Name': 'Не найдены недостоверные сведения в регистрационных данных об учредителе.',
+              'Description': None,
+              'Number': 'П9'
+            }
+          },
+          {
+            'Item1': '5be74364-22c6-4719-9e6f-0cd9f97a27dd',
+            'Item2': {
+              'Type': 'ShareholderUnreliability',
+              'Score': 'Positive',
+              'Name': 'Не найдены недостоверные сведения в регистрационных данных об учредителе.',
+              'Description': None,
+              'Number': 'П9'
+            }
+          },
+          {
+            'Item1': '8388c4a3-0ce9-4440-bd06-0e7e0aa2c2b6',
+            'Item2': {
+              'Type': 'ShareholderUnreliability',
+              'Score': 'Positive',
+              'Name': 'Не найдены недостоверные сведения в регистрационных данных об учредителе.',
+              'Description': None,
+              'Number': 'П9'
+            }
+          },
+          {
+            'Item1': 'be246fd4-e529-4c46-8ecc-260ee8303af7',
+            'Item2': {
+              'Type': 'ShareholderUnreliability',
+              'Score': 'Positive',
+              'Name': 'Не найдены недостоверные сведения в регистрационных данных об учредителе.',
+              'Description': None,
+              'Number': 'П9'
+            }
+          },
+          {
+            'Item1': '48dba41e-f3cd-475f-8cd0-2c92b48a782a',
+            'Item2': {
+              'Type': 'ShareholderUnreliability',
+              'Score': 'Positive',
+              'Name': 'Не найдены недостоверные сведения в регистрационных данных об учредителе.',
+              'Description': None,
+              'Number': 'П9'
+            }
+          },
+          {
+            'Item1': '867f17f7-74a2-487c-802e-5fa3444f28d8',
+            'Item2': {
+              'Type': 'ShareholderUnreliability',
+              'Score': 'Positive',
+              'Name': 'Не найдены недостоверные сведения в регистрационных данных об учредителе.',
+              'Description': None,
+              'Number': 'П9'
+            }
+          },
+          {
+            'Item1': 'd76154d7-f8ef-4f1d-8e64-6ff9d9782a12',
+            'Item2': {
+              'Type': 'ShareholderUnreliability',
+              'Score': 'Positive',
+              'Name': 'Не найдены недостоверные сведения в регистрационных данных об учредителе.',
+              'Description': None,
+              'Number': 'П9'
+            }
+          },
+          {
+            'Item1': '6ffa8eb2-1260-4f39-808a-7b91266ef7bc',
+            'Item2': {
+              'Type': 'ShareholderUnreliability',
+              'Score': 'Positive',
+              'Name': 'Не найдены недостоверные сведения в регистрационных данных об учредителе.',
+              'Description': None,
+              'Number': 'П9'
+            }
+          },
+          {
+            'Item1': 'e9d68d6c-0e93-4035-9e38-86a0f7ccf405',
+            'Item2': {
+              'Type': 'ShareholderUnreliability',
+              'Score': 'Positive',
+              'Name': 'Не найдены недостоверные сведения в регистрационных данных об учредителе.',
+              'Description': None,
+              'Number': 'П9'
+            }
+          },
+          {
+            'Item1': '565672bf-ab66-4b8d-8bea-a27f889e17c7',
+            'Item2': {
+              'Type': 'ShareholderUnreliability',
+              'Score': 'Positive',
+              'Name': 'Не найдены недостоверные сведения в регистрационных данных об учредителе.',
+              'Description': None,
+              'Number': 'П9'
+            }
+          },
+          {
+            'Item1': '7545b65e-24c9-45d5-a2a6-a6225f3cb21d',
+            'Item2': {
+              'Type': 'ShareholderUnreliability',
+              'Score': 'Positive',
+              'Name': 'Не найдены недостоверные сведения в регистрационных данных об  учредителе.',
+              'Description': None,
+              'Number': 'П9'
+            }
+          },
+          {
+            'Item1': '97e8f986-ecf2-443f-9641-d3b1802ed3a1',
+            'Item2': {
+              'Type': 'ShareholderUnreliability',
+              'Score': 'Positive',
+              'Name': 'Не найдены недостоверные сведения в регистрационных данных об учредителе.',
+              'Description': None,
+              'Number': 'П9'
+            }
+          },
+          {
+            'Item1': 'ad339c1f-b676-4544-9c91-d669cdd7d7ec',
+            'Item2': {
+              'Type': 'ShareholderUnreliability',
+              'Score': 'Positive',
+              'Name': 'Не найдены недостоверные сведения в регистрационных данных об учредителе.',
+              'Description': None,
+              'Number': 'П9'
+            }
+          }
+        ],
+        'Type': 'ShareholderUnreliability',
+        'Score': 'Positive',
+        'Name': 'Не найдены недостоверные сведения в регистрационных данных об учредителе.',
+        'Description': None,
+        'Number': 'П9'
+      },
+      {
+        'Type': 'BailiffCurrent',
+        'Score': 'Positive',
+        'Name': 'Не найдены текущие исполнительные производства за последние 12 месяцев.',
+        'Description': None,
+        'Number': 'П10'
+      },
+      {
+        'Type': 'Arbitration',
+        'Score': 'Positive',
+        'Name': 'Организация не участвовала в судебных разбирательствах за последние 12 месяцев.',
+        'Description': None,
+        'Number': 'П11'
+      },
+      {
+        'Type': 'Bankruptcy',
+        'Score': 'Positive',
+        'Name': 'Не найдены  сообщения о банкротстве компании.',
+        'Description': None,
+        'Number': 'П15'
+      }
+    ],
+    'RiskIndexes': [
+      {
+        'Type': 'DueDiligence',
+        'Percentage': 15,
+        'FactorNumbers': [
+          'В6'
+        ]
+      },
+      {
+        'Type': 'FinancialRisk',
+        'Percentage': 55,
+        'FactorNumbers': [
+          'В6'
+        ]
+      }
+    ],
+    'TotalScore': 'Attention'
+  },
+  '8601023568': {
+    'Timestamp': '2025-11-29T15:22:38.6592332',
+    'Factors': [
+      {
+        'Type': 'BailiffCurrent',
+        'Score': 'Attention',
+        'Name': 'Найдены текущие исполнительные производства.',
+        'Description': 'Найденные исполнительные производства могут свидетельствовать о финансовых трудностях в компании.',
+        'Number': 'В11'
+      },
+      {
+        'Type': 'ArbitrationSumPlaintiff',
+        'Score': 'Attention',
+        'Name': 'Значительная сумма арбитражных дел в качестве истца.',
+        'Description': 'Сумма арбитражных дел за последние 12 мес. в качестве истца составляет более 5 млн. ₽.',
+        'Number': 'В16'
+      },
+      {
+        'Type': 'ArbitrationSumDefendant',
+        'Score': 'Attention',
+        'Name': 'Значительная сумма арбитражных дел в качестве ответчика.',
+        'Description': 'Сумма арбитражных дел за последние 12 мес.  в качестве ответчика составляет более 5 млн. ₽.',
+        'Number': 'В17'
+      },
+      {
+        'Type': 'Lifetime',
+        'Score': 'Positive',
+        'Name': 'Организация существует 21 год и 2 месяца.',
+        'Description': None,
+        'Number': 'П1'
+      },
+      {
+        'Type': 'Activity',
+        'Score': 'Positive',
+        'Name': 'Имеются данные об активности организации за последние 12 месяцев.',
+        'Description': None,
+        'Number': 'П2'
+      },
+      {
+        'Type': 'Unreported',
+        'Score': 'Positive',
+        'Name': 'Организация представляет налоговую отчетность в ФНС.',
+        'Description': None,
+        'Number': 'П3'
+      },
+      {
+        'IndividualFactors': [
+          {
+            'Item1': '128966c8-38cd-4737-8a8d-2ce84db9cd26',
+            'Item2': {
+              'Type': 'MassAddress',
+              'Score': 'Positive',
+              'Name': 'Организация не найдена в реестре «массовых юридических адресов» по данным ФНС.',
+              'Description': None,
+              'Number': 'П5'
+            }
+          }
+        ],
+        'Type': 'MassAddress',
+        'Score': 'Positive',
+        'Name': 'Организация не найдена в реестре «массовых юридических адресов» по данным ФНС.',
+        'Description': None,
+        'Number': 'П5'
+      },
+      {
+        'IndividualFactors': [
+          {
+            'Item1': '128966c8-38cd-4737-8a8d-2ce84db9cd26',
+            'Item2': {
+              'Type': 'AddressUnreliability',
+              'Score': 'Positive',
+              'Name': 'Не найдены недостоверные сведения в регистрационных данных о юридическом адресе.',
+              'Description': None,
+              'Number': 'П6'
+            }
+          },
+          {
+            'Item1': '5b42d8d4-41c2-4727-8783-b63bed359d2f',
+            'Item2': {
+              'Type': 'AddressUnreliability',
+              'Score': 'Positive',
+              'Name': 'Не найдены недостоверные сведения в регистрационных данных о юридическом адресе.',
+              'Description': None,
+              'Number': 'П6'
+            }
+          }
+        ],
+        'Type': 'AddressUnreliability',
+        'Score': 'Positive',
+        'Name': 'Не найдены недостоверные сведения в регистрационных данных о юридическом адресе.',
+        'Description': None,
+        'Number': 'П6'
+      },
+      {
+        'IndividualFactors': [
+          {
+            'Item1': '7604013b-815f-4b98-954c-24f58078e8c0',
+            'Item2': {
+              'Type': 'ManagerDisqualification',
+              'Score': 'Positive',
+              'Name': 'Руководитель организации не найден в реестре «дисквалифицированные лица» по данным ФНС.',
+              'Description': None,
+              'Number': 'П7'
+            }
+          }
+        ],
+        'Type': 'ManagerDisqualification',
+        'Score': 'Positive',
+        'Name': 'Руководитель организации не найден в реестре «дисквалифицированные лица» по данным ФНС.',
+        'Description': None,
+        'Number': 'П7'
+      },
+      {
+        'IndividualFactors': [
+          {
+            'Item1': '7604013b-815f-4b98-954c-24f58078e8c0',
+            'Item2': {
+              'Type': 'ManagerUnreliability',
+              'Score': 'Positive',
+              'Name': 'Не найдены недостоверные сведения в регистрационных данных о руководителе.',
+              'Description': None,
+              'Number': 'П8'
+            }
+          },
+          {
+            'Item1': '47613e1d-a7ae-425b-a3c1-bd695f82a5c8',
+            'Item2': {
+              'Type': 'ManagerUnreliability',
+              'Score': 'Positive',
+              'Name': 'Не найдены недостоверные сведения в регистрационных данных о руководителе.',
+              'Description': None,
+              'Number': 'П8'
+            }
+          },
+          {
+            'Item1': 'aa4bc0ed-3c38-48e6-91ed-a8a35e9e856a',
+            'Item2': {
+              'Type': 'ManagerUnreliability',
+              'Score': 'Positive',
+              'Name': 'Не найдены недостоверные сведения в регистрационных данных о руководителе.',
+              'Description': None,
+              'Number': 'П8'
+            }
+          },
+          {
+            'Item1': '58b637e4-9d25-4d50-87b9-47a152a1e34f',
+            'Item2': {
+              'Type': 'ManagerUnreliability',
+              'Score': 'Positive',
+              'Name': 'Не найдены недостоверные сведения в регистрационных данных о руководителе.',
+              'Description': None,
+              'Number': 'П8'
+            }
+          },
+          {
+            'Item1': 'ac48a1db-34f7-48e4-9ee0-c067239d161b',
+            'Item2': {
+              'Type': 'ManagerUnreliability',
+              'Score': 'Positive',
+              'Name': 'Не найдены недостоверные сведения в регистрационных данных о руководителе.',
+              'Description': None,
+              'Number': 'П8'
+            }
+          },
+          {
+            'Item1': '5849e607-0bf4-4461-985f-76cc35656a13',
+            'Item2': {
+              'Type': 'ManagerUnreliability',
+              'Score': 'Positive',
+              'Name': 'Не найдены недостоверные сведения в регистрационных данных о руководителе.',
+              'Description': None,
+              'Number': 'П8'
+            }
+          }
+        ],
+        'Type': 'ManagerUnreliability',
+        'Score': 'Positive',
+        'Name': 'Не найдены недостоверные сведения в регистрационных данных о руководителе.',
+        'Description': None,
+        'Number': 'П8'
+      },
+      {
+        'IndividualFactors': [
+          {
+            'Item1': 'b1cb2a82-bc60-4a6a-8315-078a4714491d',
+            'Item2': {
+              'Type': 'ShareholderUnreliability',
+              'Score': 'Positive',
+              'Name': 'Не найдены недостоверные сведения в регистрационных данных об учредителе.',
+              'Description': None,
+              'Number': 'П9'
+            }
+          },
+          {
+            'Item1': 'c42bd5d3-08d5-4dc7-a3cf-f1d2fe66acf9',
+            'Item2': {
+              'Type': 'ShareholderUnreliability',
+              'Score': 'Positive',
+              'Name': 'Не найдены недостоверные сведения в регистрационных данных об учредителе.',
+              'Description': None,
+              'Number': 'П9'
+            }
+          }
+        ],
+        'Type': 'ShareholderUnreliability',
+        'Score': 'Positive',
+        'Name': 'Не найдены недостоверные сведения в регистрационных данных об учредителе.',
+        'Description': None,
+        'Number': 'П9'
+      },
+      {
+        'Type': 'InsuranceLicense',
+        'Score': 'Positive',
+        'Name': 'Действующая лицензия на страхование от ЦБ РФ',
+        'Description': 'Согласно данным ЦБ РФ организация имеет действующие лицензии на страхование',
+        'Number': 'П18'
+      }
+    ],
+    'RiskIndexes': [
+      {
+        'Type': 'DueDiligence',
+        'Percentage': 0,
+        'FactorNumbers': [
+          
+        ]
+      },
+      {
+        'Type': 'FinancialRisk',
+        'Percentage': 0,
+        'FactorNumbers': [
+          'В16',
+          'В17'
+        ]
+      }
+    ],
+    'TotalScore': 'Attention'
+  }
+}

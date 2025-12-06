@@ -10,7 +10,5 @@ router = APIRouter(tags=["check"])
 async def check(request: list[dict]):
     reputation_data = await reputation_check(entyties=request, REPUTATION_API_KEY=REPUTATION_API_KEY)
     data = extract_features_from_rep_data(reputation_data)
-    # print(data)
     prediction = model_predict_risk(data)
-    print(prediction)
     return prediction

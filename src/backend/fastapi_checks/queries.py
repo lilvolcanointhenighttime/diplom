@@ -7,7 +7,6 @@ logger = logging.getLogger(__name__)
 async def async_query_get(url: str, headers: dict = {}, params: dict = {}) -> dict:
     async with aiohttp.ClientSession() as session:
         async with session.get(url=url, headers=headers, params=params) as response:
-            print(response.headers)
             data = await response.json()
             return data
 

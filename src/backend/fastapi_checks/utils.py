@@ -46,17 +46,7 @@ def model_predict_risk(data: dict):
         if not ML_model:
             return {"error": "ML model not available"}
         
-        # Обрабатываем вложенные структуры перед предсказанием
-        # processed_data = []
-        # for item in data:
-        #     processed_item = {
-        #         "Позитив": process_nested_dict(item["Позитив"]),
-        #         "Негатив": process_nested_dict(item["Негатив"])
-        #     }
-        #     processed_data.append(processed_item)
-
         result = []
-        # print(data.items())
         for inn, rep_data in data.items():
             ml_prediction = {}
             ml_prediction["inn"] = inn  
@@ -161,7 +151,6 @@ def extract_features_from_rep_data(rep_data: dict):
             score = factor['Score']
             description = factor.get('Description', '')
             name = factor.get('Name', '')
-            print(description)
             
             # === ФИНАНСОВЫЕ ПОКАЗАТЕЛИ ===
             if factor_type == 'Finance':
